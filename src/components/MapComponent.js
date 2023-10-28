@@ -46,9 +46,10 @@ function MapEvents({ addMarker, clearMarkers }) {
         keydown: (e) => {
             if (e.originalEvent.key === 'm') {
                 addMarker(window.currentMousePos);
-            }else if (e.originalEvent.key === 'h') {
-                clearMarkers();
             }
+            // else if (e.originalEvent.key === 'h') {
+            //     clearMarkers();
+            // }
 
         }
     });
